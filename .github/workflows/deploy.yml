@@ -20,7 +20,7 @@ jobs:
 
       # Build the Docker image
       - name: Build Docker Image
-        run: docker push wicklak/movie-app .
+        run: docker build -t wicklak/movie-app:latest .
 
       - name: Publish Image to Docker Hub
-        run: docker push wicklak/movie-app :latest
+        run: docker push wicklak/movie-app:latest
