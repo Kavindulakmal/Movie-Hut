@@ -11,4 +11,5 @@ Currently, two official plugins are available:
 sudo docker run -d -p 5173:5173 --name movie-app-container wicklak/movie-app:latest
 
 # Result
+![Movie App Screenshot](./ss/Screenshot 2025-02-27 151501.png)
 
