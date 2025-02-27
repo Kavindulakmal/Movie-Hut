@@ -19,5 +19,5 @@ RUN npm run build
 # Expose port 5173
 EXPOSE 5173
 
-# Serve the app using Vite's preview server
-CMD ["npm", "run", "dev", "--", "--host"]
+# Serve the app using Vite's development server with --host flag
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
